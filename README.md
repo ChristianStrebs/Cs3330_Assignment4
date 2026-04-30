@@ -20,15 +20,15 @@ The implementation showcases several core design patterns:
 * **Adapter Pattern:** Adapts a legacy owl-scroll notification system to work seamlessly with the modern notification interface expected by the rest of the application.
 
 ## 📦 Package Organization
-| Package | Purpose |
-| :--- | :--- |
-| `edu.oop.guild.model` | Core domain objects and enums |
-| `edu.oop.guild.creature` | Courier creature abstractions and implementations |
-| `edu.oop.guild.strategy` | Delivery cost strategy interface and implementations |
-| `edu.oop.guild.seal` | Package seal interface and implementations |
-| `edu.oop.guild.factory` | Realm factory abstractions and concrete factories |
-| `edu.oop.guild.log` | Singleton guild log |
-| `edu.oop.guild.notification` | Notification interface, legacy class, and adapter |
+| Package | Purpose <br>
+|<br>
+| `edu.oop.guild.model` | Core domain objects and enums |<br>
+| `edu.oop.guild.creature` | Courier creature abstractions and implementations |<br>
+| `edu.oop.guild.strategy` | Delivery cost strategy interface and implementations |<br>
+| `edu.oop.guild.seal` | Package seal interface and implementations |<br>
+| `edu.oop.guild.factory` | Realm factory abstractions and concrete factories |<br>
+| `edu.oop.guild.log` | Singleton guild log |<br>
+| `edu.oop.guild.notification` | Notification interface, legacy class, and adapter |<br>
 | `edu.oop.guild.service` | Main delivery planning service |
 
 ## 🚀 How to Run the Project
