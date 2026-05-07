@@ -1,0 +1,11 @@
+package edu.oop.guild.log;
+
+public class GuildLog {
+
+	public static Object getInstance() {
+		return null;
+	}
+
+	
+	
+}
