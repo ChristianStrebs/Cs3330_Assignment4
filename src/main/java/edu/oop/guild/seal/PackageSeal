@@ -1,0 +1,8 @@
+package edu.oop.guild.seal;
+
+public interface PackageSeal {
+
+	public String apply(String label);
+
+	public int durability();
+}
