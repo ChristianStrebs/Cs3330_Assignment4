@@ -1,11 +1,39 @@
 package edu.oop.guild.log;
 
-public class GuildLog {
+import java.util.Arrays;
+import java.util.List;
 
-	public static Object getInstance() {
-		return null;
+public class GuildLog {
+	
+	private static GuildLog instance;
+	private List<String> entries;
+
+	public static GuildLog getInstance() {
+		if (instance == null) {
+			instance = new GuildLog();
+		}
+		return instance;
+	}
+	
+	public void clear() {
+		List<String> newEntries = Arrays.asList();
+		entries = List.copyOf(newEntries);
 	}
 
+	public void record(String logEntry) {
+		if (logEntry == null)
+			throw new NullPointerException();
+		List<String> newEntries = Arrays.asList(logEntry);
+		entries = List.copyOf(newEntries);
+	}
+
+	public int size() {
+		return instance.entries.size();
+	}
+
+	public List<String> entries() {
+		return entries;
+	}
 	
 	
 }
