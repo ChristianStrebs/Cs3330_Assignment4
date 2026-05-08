@@ -1,0 +1,9 @@
+package edu.oop.guild.strategy;
+
+import edu.oop.guild.model.DeliveryRequest;
+
+public interface DeliveryCostStrategy {
+
+	public int estimateCoins(DeliveryRequest request);
+
+}
